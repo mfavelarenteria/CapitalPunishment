@@ -1,15 +1,9 @@
 ---
 title: "GSS challange More Data"
-author: "Put your name here!"
+author: "Marisol Favela Renteria!"
 date: "put the date here"
 output: html_document
 ---
-
-
-
-
-
-
 
 ```{r include=FALSE,echo=FALSE}
 source(file="fisherXY.R")
@@ -27,10 +21,16 @@ mydata <- na.omit(mydata)
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
+We are trying to identify if race is independent of attitude towards capital punishment.
+$H_0$- there is no correlation between race and attitude towards capital punishment
+$H_A$- there is a relationship between race and attitude towards capital punishment. We loaded the data from the (my data) set with about 2867 samples from the year 2016. In order to conlcude our findings we are going to be running multiple 
+
 Is attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??
 
 # Methods
+race is categorical 
+capital punishment is categorical
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
